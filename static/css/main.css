@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-color: #14EED0;
+}
+
+#first{
+    color:red;
+}
+
+h1{
+    color:blue;
+} 
+
+#testimonial{
+    color:#DD14EE;
+}
+
+.top{
+    background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
+    width:100%;
+    height:50vh;
+    background-size:cover;
+    background-position: center;
+}
