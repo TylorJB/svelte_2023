@@ -3,10 +3,12 @@
     
     import Footer from '$lib/Footer.svelte';
     
+    
+    
 </script>
 
-<Header/>
-
 <slot />
+
+<Header/>
 
 <Footer/>

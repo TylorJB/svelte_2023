@@ -1,18 +1,22 @@
 body{
     margin:0;
-    background-color: #14EED0;
+    background-color: #1da0a0;
 }
 
-#first{
-    color:red;
+#notapyramid{
+    color:rgb(0, 0, 0);
 }
 
-h1{
-    color:blue;
+#signup{
+    color:rgb(0, 0, 0);
+} 
+
+#getmoney{
+    color:rgb(0, 0, 0);
 } 
 
 #testimonial{
-    color:#DD14EE;
+    color:#000000;
 }
 
 .top{

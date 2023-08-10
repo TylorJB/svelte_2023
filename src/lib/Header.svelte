@@ -1,9 +1,27 @@
+<script>
+    import Nav from '$lib/Nav.svelte';
+
+</script>
 <header>
-    
-    <h1 style="color:blue">Springbok Dollaz!</h1>
-    
+    <div class= 'navbar'>`
+        `
+
+        <img src="/img/Springbok Dollaz-logos_transparent.png"
+        width="200"
+        height="200"/>    
+        <Nav/>
+    </div>
 </header>
-<script>import Nav from '$lib/Nav.svelte';</script>
-<Nav/>
 
 <div class="top"></div>
+
+
+<style>
+
+    .navbar{
+        display: flex;
+        align-items: center;               
+    }
+
+    
+</style>
