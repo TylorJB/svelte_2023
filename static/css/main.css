@@ -8,21 +8,32 @@ body{
 }
 
 #signup{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family: Tisa;
 } 
 
 #getmoney{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    
 } 
 
 #testimonial{
-    color:#000000;
+    color:#ffffff;
 }
 
 .top{
     background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
-    width:100%;
+    width:50%;
     height:50vh;
     background-size:cover;
     background-position: center;
+    position: fixed;
+    bottom: 10;
+    right: 0;
+}
+
+#Benjamin{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

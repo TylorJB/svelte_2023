@@ -3,13 +3,24 @@ nav
 {
     display:flex ;
     flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    
 }
 nav a
 {
     text-decoration: none;
-    display: block;
+    display: block;   
     padding: 15px 25px;
-    text-align: centre;
+    text-align: center;
+    
+
+}
+
+nav a:hover{
+background-color: #17d8ce;
+color: rgb(0, 0, 0);
+
 }
 
 
