@@ -8,32 +8,40 @@ body{
 }
 
 #signup{
-    color:rgb(255, 255, 255);
+    color:white;
     font-family: Tisa;
 } 
 
 #getmoney{
-    color:rgb(255, 255, 255);
+    color:white;
     
 } 
 
 #testimonial{
-    color:#ffffff;
+    color:white;
 }
 
+
+.page1{
+    width: 100%;
+}
 .top{
     background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
-    width:50%;
+    width:75%;
     height:50vh;
     background-size:cover;
-    background-position: center;
-    position: fixed;
-    bottom: 10;
-    right: 0;
+    background-position: left;
+    /*position: fixed;*/
+    
+    float: left;
 }
 
-#Benjamin{
-    position: fixed;
-    bottom: 0;
-    right: 0;
+.bottom{
+    background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
+    width:25%;
+    height:50vh;
+    background-size:cover;
+    background-position: right;
+    float: right;
+    
 }
