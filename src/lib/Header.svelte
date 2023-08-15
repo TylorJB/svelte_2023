@@ -3,6 +3,9 @@
 </script>
 
 <header>
+    <div>
+         
+    </div>
     <title> Springbok Dollaz</title>
     <div class= 'navbar'>       
         <img src="/img/Springbok Dollaz-logos_transparent.png"

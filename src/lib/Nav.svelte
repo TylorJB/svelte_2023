@@ -2,6 +2,7 @@
     nav
     {
         display:flex ;
+        justify-content:center;
         flex-wrap: wrap;    
         overflow: hidden;
         width:100%;
@@ -11,10 +12,10 @@
         text-decoration: none;    
         text-align: center;  
     }
-
+    
 
     #login{
-        background:black;
+        /*background:black;*/
     }
 
     nav a div:hover, nav > div:hover{
@@ -36,7 +37,7 @@
     }
 
     .nav-left{
-        margin-right:auto;
+        /*margin-right:auto;*/
     }
 
 </style>
@@ -57,7 +58,7 @@
         </li>
    </ul>
 
-   <div id="login" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1"> Login</div>
+   <div id="login" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1"> Login </div> 
    <div id="getstarted" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1"> Get Started</div>
    
 </nav>

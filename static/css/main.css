@@ -1,3 +1,9 @@
+header{
+background-color:aliceblue;
+
+
+}
+
 body{
     margin:0;
     background-color: #1da0a0;
@@ -10,20 +16,20 @@ body{
 
 
 #investnow{
-    color: white;   
+    color: rgb(0, 0, 0);   
 } 
 
 #getmoney{
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 #login{
-    color:white;
+    color:rgb(0, 0, 0);
     /*font-family: Tisa;*/
 } 
 
 #getstarted{
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 
@@ -48,4 +54,21 @@ body{
     background-size:cover;
     background-position: right;
     float: right; 
+}
+
+.dropdown{
+	width: 297px;
+	overflow: hidden;
+	background: no-repeat right #363636;
+	border-top:#575757 1px solid;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	 -moz-border-radius: 4px 4px 4px 4px;
+		  border-radius: 4px 4px 4px 4px;
+	-webkit-box-shadow: inset 0 2px 4px rgba(107, 105, 105, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  -moz-box-shadow:    0px 8px 3px -9px #000000;
+		  -webkit-box-shadow: 0px 8px 3px -9px #000000;
+		  box-shadow:         0px 8px 3px -9px #000000;  
+
 }
