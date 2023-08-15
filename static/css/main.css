@@ -5,19 +5,24 @@ body{
 
 #notapyramid{
     color:rgb(0, 0, 0);
+
 }
 
-#signup{
-    color:white;
-    font-family: Tisa;
+
+#investnow{
+    color: white;   
 } 
 
 #getmoney{
     color:white;
-    
+}
+
+#login{
+    color:white;
+    /*font-family: Tisa;*/
 } 
 
-#testimonial{
+#getstarted{
     color:white;
 }
 
@@ -27,7 +32,7 @@ body{
 }
 .top{
     background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
-    width:75%;
+    width:50%;
     height:50vh;
     background-size:cover;
     background-position: left;
@@ -38,10 +43,9 @@ body{
 
 .bottom{
     background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
-    width:25%;
+    width:50%;
     height:50vh;
     background-size:cover;
     background-position: right;
-    float: right;
-    
+    float: right; 
 }
