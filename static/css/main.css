@@ -15,11 +15,11 @@ body{
 }
 
 
-#investnow{
+#facial{
     color: rgb(0, 0, 0);   
 } 
 
-#getmoney{
+#body{
     color:rgb(0, 0, 0);
 }
 
@@ -37,7 +37,7 @@ body{
     width: 100%;
 }
 .top{
-    background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
+    background-image: url('../img/Man-with-Well-Groomed-Beard.jpg');
     width:50%;
     height:50vh;
     background-size:cover;
@@ -48,11 +48,11 @@ body{
 }
 
 .bottom{
-    background-image: url('../img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg');
+    background-image: url('../img/Cristiano briefs.jpg');
     width:50%;
     height:50vh;
-    background-size:cover;
-    background-position: right;
+    background-size:80%;
+    background-position: center;
     float: right; 
 }
 

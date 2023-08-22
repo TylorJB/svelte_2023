@@ -6,7 +6,7 @@
     <div>
          
     </div>
-    <title> Springbok Dollaz</title>
+    <title> Pretty Nuts</title>
     <div class= 'navbar'>       
         <img src="/img/Springbok Dollaz-logos_transparent.png"
         width="200"

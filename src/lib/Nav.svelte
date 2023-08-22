@@ -46,14 +46,14 @@
     <ul class="nav-left">
         <ul>  
             <li>    
-            <a id="investnow" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
-                <div>Invest Now</div>
+            <a id="facial" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
+                <div>Facial</div>
             </a> 
         </li> 
         </ul>
         <li>        
-            <a id="getmoney" href="https://www.google.com/search?q=foxy+fnaf&tbm=isch&ved=2ahUKEwjUnbz6r7yAAxUVo-kKHUY4BucQ2-cCegQIABAA&oq=foxy+fnaf&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB5QwgxYvxlg_RtoAHAAeACAAbUBiAGWDJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HXXJZJSbNZXGpgfG8Ji4Dg&bih=963&biw=1903&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US" >
-                <div>Get Money</div>
+            <a id="body" href="https://www.google.com/search?q=foxy+fnaf&tbm=isch&ved=2ahUKEwjUnbz6r7yAAxUVo-kKHUY4BucQ2-cCegQIABAA&oq=foxy+fnaf&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB5QwgxYvxlg_RtoAHAAeACAAbUBiAGWDJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HXXJZJSbNZXGpgfG8Ji4Dg&bih=963&biw=1903&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US" >
+                <div>Body</div>
             </a> 
         </li>
    </ul>
