@@ -1,3 +1,3 @@
 <footer>
-    <h2 id="notapyramid">Go Nuts!</h2>
+    <h2 id="outrotext">Go Nuts!</h2>
 </footer>

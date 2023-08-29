@@ -1,35 +1,33 @@
 header{
-background-color:aliceblue;
-
-
+/*background-color:aliceblue;*/
+background-image: url('/img/graveyard back.jfif');
 }
 
 body{
     margin:0;
-    background-color: #1da0a0;
+    background-color:aliceblue;
 }
 
-#notapyramid{
-    color:rgb(0, 0, 0);
-
+#outrotext{
+    color:rgb(255, 255, 255);
 }
 
 
 #facial{
-    color: rgb(0, 0, 0);   
+    color: rgb(255, 255, 255);   
 } 
 
 #body{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 #login{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     /*font-family: Tisa;*/
 } 
 
 #getstarted{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 
@@ -48,7 +46,7 @@ body{
 }
 
 .bottom{
-    background-image: url('../img/Cristiano briefs.jpg');
+    background-image: url('/img/graveyard back.jfif');
     width:50%;
     height:50vh;
     background-size:80%;
@@ -56,7 +54,7 @@ body{
     float: right; 
 }
 
-.dropdown{
+/*.dropdown{
 	width: 297px;
 	overflow: hidden;
 	background: no-repeat right #363636;
@@ -71,4 +69,4 @@ body{
 		  -webkit-box-shadow: 0px 8px 3px -9px #000000;
 		  box-shadow:         0px 8px 3px -9px #000000;  
 
-}
+}*/
