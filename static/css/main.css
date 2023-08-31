@@ -54,6 +54,56 @@ body{
     float: right; 
 }
 
+.navbar{
+    display: flex;
+    align-items: center;               
+}   
+
+.container {
+    display: grid;
+    grid-template-rows:100px 100px 100px 100px 100px;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.item-1 {
+    background-color: red;
+    grid-row: 1 / 7;  
+    grid-column: 1 /5;
+    background-image: url('/img/jasonvorheescute.png');
+    width:150%;
+    height:55vh;
+    background-size: contain;
+    background-position: center;
+    
+    
+}
+
+.item-2{
+    background-color: blue;
+    grid-row: 1 / 7;
+    grid-column:7 / 11;
+
+}
+
+.item-3{
+    background-color: red;
+    grid-row: 1 / 7;
+    grid-column: 11 / 15;
+    background-image: url('/img/chucky.jpg');
+    /*width:150%;*/
+    height:55vh;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.item-4{
+    background-color: red;
+    grid-row: 1 / 7;
+    grid-column: 15 / 19;
+}
+
+
 /*.dropdown{
 	width: 297px;
 	overflow: hidden;
