@@ -43,22 +43,29 @@
 </style>
 
 <nav>
-    <ul class="nav-left">
-        <ul>  
-            <li>    
-            <a id="facial" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
-                <div>Facial</div>
+    <ul class="nav-left">   
+        <li>    
+            <a id="search" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
+                <div>Search</div>
             </a> 
-        </li> 
-        </ul>
+        </li>    
         <li>        
-            <a id="body" href="https://www.google.com/search?q=foxy+fnaf&tbm=isch&ved=2ahUKEwjUnbz6r7yAAxUVo-kKHUY4BucQ2-cCegQIABAA&oq=foxy+fnaf&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB5QwgxYvxlg_RtoAHAAeACAAbUBiAGWDJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HXXJZJSbNZXGpgfG8Ji4Dg&bih=963&biw=1903&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US" >
-                <div>Body</div>
+            <a id="terror" href="https://www.google.com/search?q=foxy+fnaf&tbm=isch&ved=2ahUKEwjUnbz6r7yAAxUVo-kKHUY4BucQ2-cCegQIABAA&oq=foxy+fnaf&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB5QwgxYvxlg_RtoAHAAeACAAbUBiAGWDJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HXXJZJSbNZXGpgfG8Ji4Dg&bih=963&biw=1903&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US" >
+                <div>Terror</div>
             </a> 
         </li>
-   </ul>
+        <li>        
+            <a id="login" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
+                <div>Login</div>
+            </a> 
+        </li>
+        <li>
+            <a id="getstarted" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
+                <div>Get Started</div>
+            </a> 
 
-   <div id="login" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1"> Login </div> 
-   <div id="getstarted" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1"> Get Started</div>
+        </li>
+    
+   </ul>
    
 </nav>
