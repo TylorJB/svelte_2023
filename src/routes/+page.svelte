@@ -23,7 +23,6 @@
             <img src = "/img/Cristiano briefs.jpg">
         </div>
         <div class = "pic2">
-
         </div>
 
     </div>

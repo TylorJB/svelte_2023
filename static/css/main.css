@@ -160,3 +160,25 @@ body{
     height: 50%;
     display: flex;
 }
+
+footer{
+    background-image: url('/img/graveyard back.jfif');
+    padding-top:12px;
+    padding-bottom: 12px;
+    }
+
+.footleft{
+    display:flex ;
+        justify-content:center;
+        flex-wrap: wrap;    
+        overflow: hidden;
+        width:100%;
+}
+
+#Down{
+    color: white;
+}
+
+#Below{
+    color: white;
+}
