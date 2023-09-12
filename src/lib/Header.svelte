@@ -7,7 +7,7 @@
          
     </div>
     <title> Pretty Nuts</title>
-    <div class= 'navbar'>       
+    <div class= 'nav-logo'>       
         <img src="/img/SoScary-logos_transparent.png"
         width="200"
         height="200"/>    

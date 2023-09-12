@@ -54,7 +54,7 @@ body{
     float: right; 
 }
 
-.navbar{
+.nav-logo{
     display: flex;
     align-items: center;               
 }   

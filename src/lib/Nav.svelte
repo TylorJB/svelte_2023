@@ -18,32 +18,31 @@
         /*background:black;*/
     }
 
-    nav a div:hover, nav > div:hover{
+    .nav-words :hover{
         background-color: #17d8ce!important;
-        color: rgb(0, 0, 0)!important;
-        cursor:pointer;
+        color: black;
     }
 
 
-    nav ul{
+    nav ul{/*This arranges the 4 words into landscape instead of a vertical row*/
         display:flex;
         list-style:none;
         margin:0;
         padding:0;
     }
 
-    nav ul li a div, nav > div {
+    nav ul li a div, nav > div {/*This spaces the 4 words(padding) so they arent squished together*/
         padding: 15px 25px;
     }
 
-    .nav-left{
-        /*margin-right:auto;*/
-    }
+    /*.nav-words{
+        margin-right:auto;
+    }*/
 
 </style>
 
 <nav>
-    <ul class="nav-left">   
+    <ul class="nav-words">   
         <li>    
             <a id="search" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
                 <div>Search</div>
