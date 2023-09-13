@@ -1,6 +1,4 @@
-<footer>
-    <h2 id="outrotext">Go Nuts!</h2>
-
+<footer>   
     <ul class="footleft">
         <li>
             <a id="Down" >
@@ -12,7 +10,6 @@
                 <div>Below</div>
             </a>
         </li>
-    
     </ul>
 </footer>
 

@@ -9,3 +9,7 @@ https://www.dimensions.com/collection/horror-movie-characters
 https://www.demilked.com/terrifying-popular-cartoon-characters-felipe-rui-fernandez-spain/
 
 https://unsplash.com/s/photos/horror
+
+https://bethesda.net/en/dashboard
+
+Add an API to footer of age rating

@@ -8,6 +8,13 @@ body{
     background-color:aliceblue;
 }
 
+footer{
+    background-image: url('/img/graveyard back.jfif');
+    padding-top:12px;
+    padding-bottom: 12px;
+    height: 400px;
+    }
+
 #outrotext{
     color:rgb(255, 255, 255);
 }
@@ -142,12 +149,6 @@ body{
     flex-direction: column;
 }
 
-.pic1{
-    height: 50%;
-    display: flex;
-    background-color: red;
-
-}
 
 .pic1 img{
     width: 70%;
@@ -156,29 +157,25 @@ body{
     justify-content: center;
 }
 
-.pic2{
+.pic1, .pic2{
     height: 50%;
     display: flex;
 }
+.pic1{
+    background-color: red;
+}
 
-footer{
-    background-image: url('/img/graveyard back.jfif');
-    padding-top:12px;
-    padding-bottom: 12px;
-    }
+
 
 .footleft{
-    display:flex ;
+        display:flex ;
         justify-content:center;
         flex-wrap: wrap;    
-        overflow: hidden;
+        /*overflow: hidden;*/
         width:100%;
+        list-style: none;
 }
-
-#Down{
-    color: white;
-}
-
-#Below{
+.footleft li a div{
+    padding: 25px;
     color: white;
 }

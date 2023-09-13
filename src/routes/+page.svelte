@@ -20,11 +20,10 @@
     </div>
     <div class="pics">
         <div class = "pic1">
-            <img src = "/img/Cristiano briefs.jpg">
+            <img src = "/img/Cristiano briefs.jpg">/img/SoScary-logos_transparent.png
         </div>
         <div class = "pic2">
         </div>
 
     </div>
 </div>
-
