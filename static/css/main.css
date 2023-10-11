@@ -9,9 +9,11 @@ body{
 }
 
 footer{
-    background-image: url('/img/graveyard back.jfif');
-    padding-top:12px;
+    /*background-image: url('/img/graveyard back.jfif');*/
+    background-color: rgb(31, 30, 30);
+    padding-top:12px;/*this this adds a space between the top of the footer line and any objects in the footer*/
     padding-bottom: 12px;
+    padding: 60px;
     height: 400px;
     }
 
@@ -166,16 +168,92 @@ footer{
 }
 
 
+/*The css code for the footer starts below*/
+.foot1{
+    display: flex;
+    padding: 4vh 5vw;
+    justify-content: space-between;
+}
+
+.foot1 > ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 
 .footleft{
-        display:flex ;
-        justify-content:center;
-        flex-wrap: wrap;    
-        /*overflow: hidden;*/
-        width:100%;
-        list-style: none;
+    flex: 1;
+    width: 100%;
+    max-width: 25vw;
+    margin: 1em 0;   
+    padding: 0;
+    
+      
 }
-.footleft li a div{
-    padding: 25px;
+
+.exploreheader{
+    border-bottom: 2px solid rgb(46, 46, 46); 
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+
+.explore{
     color: white;
+    margin: 1em 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.4em;
+    padding: 0;
 }
+
+.explorelist17{
+    padding: 0;
+    list-style: none;
+    line-height: 1rem;
+    margin-left: 0;
+    /*column-count: 2;     (This cuts off the us and puts it in anothe rcolumn*/ 
+}
+
+.explorelist17 > li{
+    margin-bottom: 1rem;
+}
+
+.explorelist20{
+    color: #b3b3b3;
+    font-size: 1rem;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footmiddle{
+    display:flex ;
+    justify-content:center;
+    flex-wrap: wrap;    
+    /*overflow: hidden;*/
+    width:100%;
+    list-style: none;
+    
+}
+.footmiddle li a div{
+padding: 25px;
+color: white;
+}
+
+
