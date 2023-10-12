@@ -234,14 +234,22 @@ footer{
 
 .footerend{
     display: flex;
-    
+    padding: 30px 5vw;
+    border-top: 2px solid rgb(29, 29, 29);
+    flex-direction: column;   
+}
+
+.footerpics{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
 }
 
 .footerlogo{
     display: flex;
     align-items: center; 
-    padding: 20px 0;
-                  
+    padding: 20px 0;                
 } 
 
 

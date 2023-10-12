@@ -64,8 +64,13 @@
                 width="200"
                 height="200"/>
             </div>
-
+            <div class= 'footerage'>       
+                <img src="/img/age restriction.png"
+                width="600"
+                height="200"/>
+            </div>
         </div>
+        
     </div>
       
 </footer>
