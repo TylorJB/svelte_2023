@@ -11,10 +11,10 @@ body{
 footer{
     /*background-image: url('/img/graveyard back.jfif');*/
     background-color: rgb(31, 30, 30);
-    padding-top:12px;/*this this adds a space between the top of the footer line and any objects in the footer*/
-    padding-bottom: 12px;
+    /*padding-top:12px;*//*this this adds a space between the top of the footer line and any objects in the footer*/
+    /*padding-bottom: 12px;
     padding: 60px;
-    height: 400px;
+    height: 400px;*/
     }
 
 #outrotext{
@@ -188,8 +188,8 @@ footer{
     flex: 1;
     width: 100%;
     max-width: 25vw;
-    margin: 1em 0;   
-    padding: 0;
+    /*margin: 1em 0;  */ 
+    /*padding: 0;*/
     
       
 }
@@ -217,12 +217,14 @@ footer{
     list-style: none;
     line-height: 1rem;
     margin-left: 0;
-    /*column-count: 2;     (This cuts off the us and puts it in anothe rcolumn*/ 
+    /*column-count: 2; */    /*(This cuts off the us and puts it in anothe rcolumn*/ 
+   
 }
 
 .explorelist17 > li{
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
+
 
 .explorelist20{
     color: #b3b3b3;
@@ -230,30 +232,18 @@ footer{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.footmiddle{
-    display:flex ;
-    justify-content:center;
-    flex-wrap: wrap;    
-    /*overflow: hidden;*/
-    width:100%;
-    list-style: none;
+.footerend{
+    display: flex;
     
 }
-.footmiddle li a div{
-padding: 25px;
-color: white;
-}
+
+.footerlogo{
+    display: flex;
+    align-items: center; 
+    padding: 20px 0;
+                  
+} 
+
+
 
 
