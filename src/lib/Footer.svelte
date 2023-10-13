@@ -70,7 +70,6 @@
                 height="200"/>
             </div>
         </div>
-        
     </div>
       
 </footer>
