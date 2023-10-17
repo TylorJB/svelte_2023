@@ -13,7 +13,6 @@
         height="200"/>    
         <Nav/>
     </div>
-    
 </header>
 
 
