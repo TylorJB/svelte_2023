@@ -12,4 +12,6 @@ https://unsplash.com/s/photos/horror
 
 https://bethesda.net/en/dashboard
 
+https://demo.templatemonster.com/demo/273578.html?aff=colorlib&utm_campaign=halloween_affiliates2022&utm_source=colorlib&utm_medium=referral
+
 Add an API to footer of age rating
