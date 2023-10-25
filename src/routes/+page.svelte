@@ -2,7 +2,9 @@
     <link rel="stylesheet" href="css/main.css" />
 </svelte:head>
 
+<script>//testing to see if my pushing works, because i havent saved the last 2 sessions. 
 
+</script>
 
 
 
