@@ -2,11 +2,18 @@
     <link rel="stylesheet" href="css/main.css" />
 </svelte:head>
 
-<script>//testing to see if my pushing works, because i havent saved the last 2 sessions. 
+<script>//it worked
+import { onMount } from "svelte";
 
+let imgs = [];
+const BASE_URL = "https://api.unsplash.com"
+
+onMount(async () => {
+    const res = await fetch (`${BASE_URL}`);
+    let data = await res.json();
+    imgs = data.results;
+});
 </script>
-
-
 
 <div class="container">
 
