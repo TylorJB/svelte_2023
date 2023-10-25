@@ -2,14 +2,14 @@
     <link rel="stylesheet" href="css/main.css" />
 </svelte:head>
 
-<script>//it worked
+<script>
 import { onMount } from "svelte";
 
 let imgs = [];
 const BASE_URL = "https://api.unsplash.com"
 
 onMount(async () => {
-    const res = await fetch (`${BASE_URL}`);
+    const res = await fetch (`${BASE_URL}/https://api.unsplash.com/search/photos?query=cats&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
     let data = await res.json();
     imgs = data.results;
 });
@@ -20,7 +20,16 @@ onMount(async () => {
     <div class="row">
         <div class= "gallery">
             <div class="gallery-block">
-                <img src="" class="gallery-image">
+                {#each imgs as img}
+                <img src="${img.urls.regular}" class="gallery-image">
+                {/each}
+            </div>
+        </div>
+        <div class= "gallery">
+            <div class="gallery-block">
+                {#each imgs as img}
+                <img src="${img.urls.regular}" class="gallery-image">
+                {/each}
             </div>
         </div>
         <div class= "gallery">
@@ -33,17 +42,7 @@ onMount(async () => {
                 <img src="" class="gallery-image">
             </div>
         </div>
-        <div class= "gallery">
-            <div class="gallery-block">
-                <img src="" class="gallery-image">
-            </div>
-        </div>
-
-
     </div>
-
-
-
 </div>
 
 
