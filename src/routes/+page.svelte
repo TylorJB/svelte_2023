@@ -6,10 +6,10 @@
 import { onMount } from "svelte";
 
 let imgs = [];
-const BASE_URL = "https://api.unsplash.com"
+const BASE_URL = "https://api.unsplash.com";
 
 onMount(async () => {
-    const res = await fetch (`${BASE_URL}/https://api.unsplash.com/search/photos?query=cats&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
+    const res = await fetch (`${BASE_URL}/search/photos?query=scary&per_page=12&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
     let data = await res.json();
     imgs = data.results;
 });
@@ -19,57 +19,16 @@ onMount(async () => {
 
     <div class="row">
         <div class= "gallery">
-            <div class="gallery-block">
-                {#each imgs as img}
-                <img src="${img.urls.regular}" class="gallery-image">
+            <class class="gallery-block">
+                {#each imgs as img, index}
+                <img src={img.urls.regular} alt="PetPics" class="gallery-image">
                 {/each}
-            </div>
-        </div>
-        <div class= "gallery">
-            <div class="gallery-block">
-                {#each imgs as img}
-                <img src="${img.urls.regular}" class="gallery-image">
-                {/each}
-            </div>
-        </div>
-        <div class= "gallery">
-            <div class="gallery-block">
-                <img src="" class="gallery-image">
-            </div>
-        </div>
-        <div class= "gallery">
-            <div class="gallery-block">
-                <img src="" class="gallery-image">
-            </div>
+            </class>
         </div>
     </div>
 </div>
 
 
-<!-- <div class="container">
-    <div class="item item-1">1</div>
-    <div class="item item-2">2</div>
-    <div class="item item-3">3</div>
-    <div class="item item-4">4</div>
-</div>
-
-<div class="page1">
-    <div class="top"></div>
-    <div class="bottom"></div>
-</div>
-
-<div class="outside">
-    <div class="text">
-        yoyoyoyoyoy
-    </div>
-    <div class="pics">
-        <div class = "pic1">
-            <img src = "/img/Man-with-Well-Groomed-Beard.jpg">/img/SoScary-logos_transparent.png
-        </div>
-        <div class = "pic2">
-        </div>
-
-    </div> -->
 
    
 
