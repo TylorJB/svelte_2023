@@ -15,6 +15,13 @@ onMount(async () => {
 });
 </script>
 
+
+<div>
+    <div class= "scary-gallery">
+        <h5>Scary Gallery</h5>
+    </div>
+    
+</div>
 <div class="container">
 
     <div class="row">
