@@ -16,9 +16,9 @@ onMount(async () => {
 </script>
 
 
-<div>
+<div class= "scary-gallery-background">
     <div class= "scary-gallery">
-        <h5>Scary Gallery</h5>
+        <h1>Scary Gallery</h1>
     </div>
     
 </div>

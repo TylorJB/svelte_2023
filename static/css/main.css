@@ -37,14 +37,7 @@ footer{
 .page1{
     width: 100%;
 }
-.top{
-    background-image: url('../img/Man-with-Well-Groomed-Beard.jpg');
-    width:50%;
-    height:50vh;
-    background-size:cover;
-    background-position: left;
-    float: left;
-}
+
 
 .bottom{
     background-image: url('/img/graveyard back.jfif');
@@ -58,7 +51,23 @@ footer{
 .nav-logo{
     display: flex;
     align-items: center;               
-} 
+}
+
+.scary-gallery-background{
+    background-color: rgb(31, 30, 30);
+    margin:0%;
+}
+
+
+.scary-gallery{
+    color: white;
+    
+}
+
+.scary-gallery h1 {
+    margin: 0px;
+    text-align: center;
+}
 
 /* This is the start of the gallery section*/
 
