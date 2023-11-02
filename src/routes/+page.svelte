@@ -15,6 +15,17 @@ onMount(async () => {
 });
 </script>
 
+<div class="first-box">
+    <div class="reviews">
+        <div class="skull">
+            <img src="/img/SoScary-logos_transparent.png">
+        </div>
+        <div class="john-cena">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellendus nam nemo. Minus aperiam reiciendis nulla veniam ea provident, inventore deserunt aliquid totam adipisci eveniet expedita ipsa facere distinctio unde?</p>
+        </div>
+    </div>
+</div>
+
 
 <div class= "scary-gallery-background">
     <div class= "scary-gallery">
@@ -34,6 +45,16 @@ onMount(async () => {
         </div>
     </div>
 </div>
+
+
+<style>
+    .reviews{
+        display: flex;
+    }
+
+
+
+</style>
 
 
 
