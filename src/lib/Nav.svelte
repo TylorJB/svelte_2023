@@ -13,11 +13,6 @@
         text-align: center;  
     }
     
-
-    #login{
-        /*background:black;*/
-    }
-
     .nav-words :hover{
         background-color: #17d8ce!important;
         color: black;

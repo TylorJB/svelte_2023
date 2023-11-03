@@ -15,13 +15,14 @@ onMount(async () => {
 });
 </script>
 
+
 <div class="first-box">
     <div class="reviews">
         <div class="skull">
-            <img src="/img/SoScary-logos_transparent.png">
+            <img class="skull1" src="/img/Man-with-Well-Groomed-Beard.jpg">
         </div>
         <div class="john-cena">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellendus nam nemo. Minus aperiam reiciendis nulla veniam ea provident, inventore deserunt aliquid totam adipisci eveniet expedita ipsa facere distinctio unde?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellendus nam nemo. Minus aperiam reiciendis nulla veniam ea provident, inventore deserunt aliquid totam adipisci eveniet expedita ipsa facere distinctio unde?</p>
         </div>
     </div>
 </div>
@@ -48,9 +49,36 @@ onMount(async () => {
 
 
 <style>
+    .first-box{
+        background-color: rgb(31, 30, 30);
+    }
+
     .reviews{
         display: flex;
+        align-items: center;
+        
     }
+
+    .skull{
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .skull1{
+        width: 700px;
+        height: 500px;
+    }
+
+    .john-cena{
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+
 
 
 

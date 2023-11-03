@@ -54,21 +54,13 @@ footer{
 }
 
 /*this is the start of my first box under the nav bar*/
-.reviews{
+/* .reviews{
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     box-sizing:border-box;
-
-}
-
-.skull{
-    
-}
-
-
-
+} */
 
 .scary-gallery-background{
     background-color: rgb(31, 30, 30);
