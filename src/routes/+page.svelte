@@ -3,26 +3,35 @@
 </svelte:head>
 
 <script>
-import { onMount } from "svelte";
+    import { onMount } from "svelte";
 
-let imgs = [];
-const BASE_URL = "https://api.unsplash.com";
+    let imgs = [];
+    let imgs2 = [];
 
-onMount(async () => {
-    const res = await fetch (`${BASE_URL}/search/photos?query=scary&per_page=12&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
-    let data = await res.json();
-    imgs = data.results;
-});
+    const BASE_URL = "https://api.unsplash.com";
+
+    onMount(async () => {
+        const res = await fetch (`${BASE_URL}/search/photos?query=scary&per_page=12&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
+        let data = await res.json();
+        imgs = data.results;
+  
+        const res2 = await fetch (`${BASE_URL}/search/photos?query=zombie-dead&per_page=1&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
+        let data2 = await res2.json();
+        imgs2 = data2.results;
+    
+    });
 </script>
 
 
 <div class="first-box">
     <div class="reviews">
-        <div class="skull">
-            <img class="skull1" src="/img/Man-with-Well-Groomed-Beard.jpg">
+        <div class="intro1">
+            {#each imgs2 as img, index}
+                <img src={img.urls.regular} alt="intro" class="intro2">
+            {/each}
         </div>
-        <div class="john-cena">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellendus nam nemo. Minus aperiam reiciendis nulla veniam ea provident, inventore deserunt aliquid totam adipisci eveniet expedita ipsa facere distinctio unde?</p>
+        <div class="intro3">
+            <p>Welcome to the Abyss of Fear, a virtual realm where the darkest corners of your imagination come to life. This is not a place for the faint of heart or the easily spooked, but rather an immersive journey into the chilling unknown. </p>
         </div>
     </div>
 </div>
@@ -49,6 +58,8 @@ onMount(async () => {
 
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
     .first-box{
         background-color: rgb(31, 30, 30);
     }
@@ -56,32 +67,28 @@ onMount(async () => {
     .reviews{
         display: flex;
         align-items: center;
-        
     }
 
-    .skull{
-        
+    .intro1{
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
-    }
-
-    .skull1{
-        width: 700px;
-        height: 500px;
-    }
-
-    .john-cena{
-        color: white;
-        margin-left: 20px;
-        margin-right: 20px;
         
     }
 
+    .intro2{
+        width: 700px;
+        height: 500px;
 
+    }
 
-
-
+    .intro3{
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+    }
 </style>
 
 

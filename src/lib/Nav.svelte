@@ -5,7 +5,7 @@
         justify-content:center;
         flex-wrap: wrap;    
         overflow: hidden;
-        width:100%;
+        /* width:100%; */
     }
     nav a
     {
@@ -30,16 +30,12 @@
         padding: 15px 25px;
     }
 
-    /*.nav-words{
-        margin-right:auto;
-    }*/
-
 </style>
 
 <nav>
     <ul class="nav-words">   
         <li>    
-            <a id="more-info" href="https://www.google.com/search?q=freddy+fnaf&tbm=isch&chips=q:freddy+fnaf,g_1:bonnie:WUNoaUo3myU%3D&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US&sa=X&ved=2ahUKEwjsl7Ksr7yAAxVWmmMGHeEEAHwQ4lYoBHoECAEQOg&biw=1903&bih=963" >
+            <a id="more-info" href= "/more-info" >
                 <div>More Info</div>
             </a> 
         </li>    
@@ -54,8 +50,8 @@
             </a> 
         </li>
         <li>
-            <a id="creators" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
-                <div>Creators</div>
+            <a id="home" href="/" >
+                <div>Home</div>
             </a> 
 
         </li>
