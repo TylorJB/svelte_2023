@@ -29,6 +29,28 @@
         width: 100%;
     }
 
+    .more-info-container2{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 20px);
+        justify-content: space-between;
+        max-width: 1279px;
+        padding-bottom: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .more-info-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
     .more-info-image{
         width: 400px;
         height: 300px;
@@ -42,7 +64,6 @@
         font-family: 'Bebas Neue', sans-serif;
         font-size: 24px;
         text-align: center;
-
     }
 
 
