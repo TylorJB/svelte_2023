@@ -28,4 +28,22 @@
         padding: 20px 0 20px;
         width: 100%;
     }
+
+    .more-info-image{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        padding: 20px 0;
+
+    }
+
+    .more-info-text{
+        color:white;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+
 </style>
