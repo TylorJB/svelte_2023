@@ -18,4 +18,14 @@
     background-image: url("/img/freestocks-kVv8AvoKJ7g-unsplash (1).jpg");
     background-size:80%;
     }
+
+    .more-info-container{
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        padding: 20px 0 20px;
+        width: 100%;
+    }
 </style>
