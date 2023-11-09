@@ -59,17 +59,21 @@
 
     <div class="footerend">
         <div class="footerpics">
-            <div class= 'footerlogo'>       
+            <div class= "footerlogo">       
                 <img src="/img/SoScary-logos_transparent.png"
                 width="200"
                 height="200"/>
             </div>
-            <div class= 'footerage'>       
+            <div class= "footerage">       
                 <img src="/img/age restriction.png"
                 width="600"
                 height="200"/>
             </div>
         </div>
+    </div>
+
+    <div class="footer-eyes"> 
+        <img src="/img/scary-eyes.jpg" class="eyes-pic">
     </div>
 </footer>
 

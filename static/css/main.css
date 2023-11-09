@@ -4,26 +4,19 @@ background-image: url('/img/graveyard back.jfif');
 
 body{
     margin:0;
-    background-color:aliceblue;
 }
 
 footer{
     background-color: rgb(31, 30, 30);
-
     }
 
 #outrotext{
     color:rgb(255, 255, 255);
 }
 
-
 #more-info{
     color: rgb(255, 255, 255);   
 } 
-
-#gallery{
-    color:rgb(255, 255, 255);
-}
 
 #terror{
     color:rgb(255, 255, 255);
@@ -38,7 +31,6 @@ footer{
 }
 
 .bottom{
-    background-image: url('/img/graveyard back.jfif');
     width:50%;
     height:50vh;
     background-size:80%;
@@ -57,8 +49,7 @@ footer{
 }
 
 .scary-gallery{
-    color: white;
-    
+    color: white;   
 }
 
 .scary-gallery h1 {
@@ -90,12 +81,12 @@ footer{
     display: flex;
     flex-direction: row;
 }
-
+/* 
 .text{
     width: 50%;
     display: flex;
     background-color: green;
-}
+} */
 
 /*The css code for the footer starts below*/
 .foot1{
@@ -174,6 +165,14 @@ footer{
     align-items: center; 
     padding: 20px 0;                
 } 
+
+.footer-eyes{
+    background-color: black;
+}
+
+.eyes-pic{
+    
+}
 
 
 

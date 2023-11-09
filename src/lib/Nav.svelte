@@ -40,11 +40,6 @@
             </a> 
         </li>    
         <li>        
-            <a id="gallery" href="https://www.google.com/search?q=foxy+fnaf&tbm=isch&ved=2ahUKEwjUnbz6r7yAAxUVo-kKHUY4BucQ2-cCegQIABAA&oq=foxy+fnaf&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB5QwgxYvxlg_RtoAHAAeACAAbUBiAGWDJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HXXJZJSbNZXGpgfG8Ji4Dg&bih=963&biw=1903&rlz=1C1GCEB_enNZ1069NZ1069&hl=en-US" >
-                <div>Gallery</div>
-            </a> 
-        </li>
-        <li>        
             <a id="terror" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
                 <div>Terror</div>
             </a> 
