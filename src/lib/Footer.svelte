@@ -3,54 +3,54 @@
         <div class="footleft">
             <div class="exploreheader">
                 <h5 class="explore">
-                    <div>EXPLORE</div>
+                    <div>TOP KILLERS</div>
                 </h5>      
             </div>
             <ul class="explorelist17">
                 <li class="explorelist18">
-                    <a class="explorelist20">Home</a>                        
+                    <a class="explorelist20">Jason Vorhees</a>                        
                 </li>
                 <li class="explorelist18">                  
-                    <a class="explorelist20">About us</a>                      
+                    <a class="explorelist20">Freddy Kruger</a>                      
                 </li>
                 <li class="explorelist18">                   
-                    <a class="explorelist20">News</a>     
+                    <a class="explorelist20">Chucky</a>     
                 </li>
             </ul>                 
         </div>
         <div class="footleft">
             <div class="exploreheader">
                 <h5 class="explore">
-                    <div>SUPPORT</div>
+                    <div>TOP GAMES</div>
                 </h5>      
             </div>
             <ul class="explorelist17">
                 <li class="explorelist18">
-                    <a class="explorelist20">Support Center</a>                   
+                    <a class="explorelist20">Slender man</a>                   
                 </li>
                 <li class="explorelist18">                  
-                    <a class="explorelist20">Safety</a>                     
+                    <a class="explorelist20">Five Nights at Freddys</a>                     
                 </li>
                 <li class="explorelist18">                  
-                    <a class="explorelist20">Status</a>     
+                    <a class="explorelist20">Outlast</a>     
                 </li>
             </ul>                 
         </div>
         <div class="footleft">
             <div class="exploreheader">
                 <h5 class="explore">
-                    <div>LEGAL</div>
+                    <div>TOP MOVIES</div>
                 </h5>      
             </div>
             <ul class="explorelist17">
                 <li class="explorelist18">
-                    <a class="explorelist20">Contact</a>                         
+                    <a class="explorelist20">Annabelle</a>                         
                 </li>
                 <li class="explorelist18">                   
-                    <a class="explorelist20">Code of Conduct</a>                        
+                    <a class="explorelist20">Friday the 13th</a>                        
                 </li>
                 <li class="explorelist18">                  
-                    <a class="explorelist20">Accessibility</a>     
+                    <a class="explorelist20">Texas Chainsaw Massacre</a>     
                 </li>
             </ul>                 
         </div>
