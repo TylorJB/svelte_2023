@@ -53,9 +53,6 @@
             <a id="home" href="/" >
                 <div>Home</div>
             </a> 
-
         </li>
-    
    </ul>
-   
 </nav>

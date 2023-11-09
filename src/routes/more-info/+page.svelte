@@ -2,7 +2,6 @@
     <link rel="stylesheet" href="css/main.css" />
 </svelte:head>
 
-
 <div class="more-info-background">
     <div class="more-info-container">
         <div class="more-info-container2">           
@@ -55,13 +54,11 @@
       align-items: center;
     }
 
-
     .more-info-image{
         width: 400px;
         height: 300px;
         object-fit: cover;
         padding: 20px 0;
-
     }
 
     .more-info-text{
@@ -70,6 +67,4 @@
         font-size: 24px;
         text-align: center;
     }
-
-
 </style>

@@ -18,10 +18,8 @@
         const res2 = await fetch (`${BASE_URL}/search/photos?query=zombie-dead&per_page=1&client_id=xvfLv8hfT8I1-MCioaETe-GF6N1-CpdiS_I4LXHYSi0`);
         let data2 = await res2.json();
         imgs2 = data2.results;
-    
     });
 </script>
-
 
 <div class="first-box">
     <div class="reviews">
@@ -36,15 +34,12 @@
     </div>
 </div>
 
-
 <div class= "scary-gallery-background">
     <div class= "scary-gallery">
         <h1>Scary Gallery</h1>
-    </div>
-    
+    </div>  
 </div>
 <div class="container">
-
     <div class="row">
         <div class= "gallery">
             <class class="gallery-block">
@@ -72,14 +67,12 @@
     .intro1{
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 20px;
-        
+        margin-left: 20px;   
     }
 
     .intro2{
         width: 700px;
         height: 500px;
-
     }
 
     .intro3{
