@@ -1,5 +1,6 @@
-<footer>
-    <div class="foot1">
+<!-- simple structuring for the footer. Lists and unordered lists were used for efficiency and it was less time consuming -->
+<footer>   
+    <div class="foot1">  
         <div class="footleft">
             <div class="exploreheader">
                 <h5 class="explore">
@@ -57,7 +58,8 @@
         
     </div>
 
-    <div class="footerend">
+    <!-- I did the styling in the div as it was easier for me to go back and edit them -->
+    <div class="footerend">   
         <div class="footerpics">
             <div class= "footerlogo">       
                 <img src="/img/SoScary-logos_transparent.png"

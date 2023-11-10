@@ -43,6 +43,9 @@ footer{
     align-items: center;               
 }
 
+/*This is the start of the gallery header*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .scary-gallery-background{
     background-color: rgb(31, 30, 30);
     margin:0%;
@@ -55,9 +58,11 @@ footer{
 .scary-gallery h1 {
     margin: 0px;
     text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-/* This is the start of the gallery section*/
+/* This is the start of the image gallery 
+Tried to make it clean and simple. Padding and rows where used.*/
 
 .container {
     padding-top: 20px;
@@ -81,12 +86,7 @@ footer{
     display: flex;
     flex-direction: row;
 }
-/* 
-.text{
-    width: 50%;
-    display: flex;
-    background-color: green;
-} */
+
 
 /*The css code for the footer starts below*/
 .foot1{

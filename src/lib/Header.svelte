@@ -10,11 +10,12 @@
 
 </style>
 
+<!-- This is where i combined the nav and header into one -->
 <header>
     <title> Pretty Nuts</title>
     <div class= 'nav-logo'>       
         <img src="/img/SoScary-logos_transparent.png" class="scary-logo"/>    
-        <Nav/>
+        <Nav/>      
     </div>
 </header>
 

@@ -13,7 +13,7 @@
         text-align: center;  
     }
     
-    .nav-words :hover{
+    .nav-words :hover{ /*adds a neat hover effect when the cursor moves over the words*/
         background-color: #17d8ce!important;
         color: black;
     }
@@ -41,7 +41,7 @@
         </li>    
         <li>        
             <a id="terror" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
-                <div>Terror</div>
+                <div>Click Here for Terror</div>
             </a> 
         </li>
         <li>
