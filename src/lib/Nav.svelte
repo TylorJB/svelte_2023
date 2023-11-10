@@ -40,7 +40,7 @@
             </a> 
         </li>    
         <li>        
-            <a id="terror" href="https://www.google.com/search?rlz=1C1GCEB_enNZ1069NZ1069&q=freddy+fnaf&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiPrdCrr7yAAxULgFYBHfWzDb8Q0pQJegQIChAB&biw=1920&bih=963&dpr=1" >
+            <a id="terror" href="https://www.google.com/search?q=cute+puppy&tbm=isch&ved=2ahUKEwiLj__brriCAxU45DgGHe_DBskQ2-cCegQIABAA&oq=cute+puppy&gs_lcp=CgNpbWcQAzIFCAAQgAQyBwgAEIoFEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQigUQsQMQQzoICAAQgAQQsQM6BggAEAUQHjoGCAAQCBAeOgkIABAYEIAEEApQlghYmTNgiDRoBHAAeACAAb4BiAHVEJIBBDAuMTKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=r5JNZcv7I7jI4-EP74ebyAw&bih=963&biw=1920&rlz=1C1GCEB_enNZ1069NZ1069" >
                 <div>Click Here for Terror</div>
             </a> 
         </li>
