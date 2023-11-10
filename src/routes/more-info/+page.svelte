@@ -33,11 +33,10 @@
         width: 100%;
     }
 
-    .more-info-container2{
+    .more-info-container2{  /*Centralises the text, edits size and adds padding to make it neater */
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        height: calc(100% - 20px);
         justify-content: space-between;
         max-width: 1279px;
         padding-bottom: 20px;

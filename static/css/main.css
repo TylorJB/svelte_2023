@@ -110,7 +110,7 @@ Tried to make it clean and simple. Padding and rows where used.*/
     max-width: 25vw;    
 }
 
-.exploreheader{
+.exploreheader{ /*This is the code for the single-line border below the footer headers*/
     border-bottom: 2px solid rgb(46, 46, 46); 
     display: flex;
     align-items: center;
